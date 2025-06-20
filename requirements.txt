@@ -1,0 +1,26 @@
+# Biomarker Extraction and Visualization System
+# Core dependencies
+
+# PDF Processing
+PyMuPDF==1.23.8
+pdfplumber==0.10.3
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Web Framework (for API)
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Data Validation
+pydantic==2.5.0
+
+# Utilities
+python-multipart==0.0.6
+python-dateutil==2.8.2
+
+# Development
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0 

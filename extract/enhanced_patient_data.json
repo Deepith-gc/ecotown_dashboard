@@ -1,0 +1,49 @@
+{
+  "patient": "BG MANJUNATH SWAMY",
+  "age": 57,
+  "gender": "Male",
+  "reports": [
+    {
+      "report_date": "2023-11-20",
+      "biomarkers": {
+        "Total Cholesterol": 200.0,
+        "Triglycerides": 150.0
+      },
+      "source_file": "Report_AD231201100076582949_2023_11_20_R_L(1).pdf"
+    },
+    {
+      "report_date": "2024-03-20",
+      "biomarkers": {
+        "Triglycerides": 150.0,
+        "Vitamin D": 30.0
+      },
+      "source_file": "ReportAccess2024.aspx.pdf"
+    },
+    {
+      "report_date": "2024-09-13",
+      "biomarkers": {
+        "Triglycerides": 150.0,
+        "Creatinine": 9.0,
+        "Vitamin D": 12.0,
+        "HbA1c": 5.7
+      },
+      "source_file": "1726238851863.pdf"
+    },
+    {
+      "report_date": "Unknown",
+      "biomarkers": {
+        "Triglycerides": 200.0,
+        "Vitamin D": 18.73,
+        "Vitamin B12": 259.0,
+        "HbA1c": 5.8
+      },
+      "source_file": "MR. MANJUNATH SWAMY_56 Y 0 M 0 D _KAL5954 (1).pdf"
+    }
+  ],
+  "extraction_metadata": {
+    "total_files": 4,
+    "successful_extractions": 4,
+    "failed_extractions": 0,
+    "extraction_date": "2025-06-19T10:37:23.653428"
+  }
+}

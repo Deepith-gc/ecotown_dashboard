@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biomarker Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button id="theme-toggle" aria-label="Toggle dark/light mode" class="theme-toggle-top">🌙 Dark Mode</button>
+  <div id="main-container">
+    <div class="logo-header-large">
+      <img src="eco-town-logo.png" alt="EcoTown Clinical Logo" class="eco-logo-large">
+    </div>
+    <header class="clinical-header">
+      <div class="header-grid">
+        <div class="header-visual">
+          <img src="/Free-Global-Health-Care-PSD-Logo-Template-scaled.jpg" alt="Global Health Logo" class="header-logo-bg-multi">
+        </div>
+        <div class="header-titles-vertical">
+          <span class="main-heading">EcoTown Health Analytics</span>
+          <span class="sub-heading-italic">Biomarker Intelligence Platform</span>
+        </div>
+        <div class="header-visual-right">
+          <img src="/healthcare.png" alt="Healthcare Logo" class="header-logo-bg-right">
+        </div>
+      </div>
+      <div class="patient-snapshot" id="patient-snapshot">
+        <!-- Populated by JS: name, age, gender, total reports, monitoring range, last updated, data density -->
+      </div>
+    </header>
+    <section id="summary" class="summary-cards-row">
+      <!-- Summary cards rendered here by JS -->
+    </section>
+    <div id="alert-banner"></div>
+    <div id="toolbar">
+      <button id="export-csv">Export CSV</button>
+      <button id="print-table">Print</button>
+      <input type="file" id="upload-json" accept="application/json" style="display:none;">
+      <button id="upload-json-btn">Upload JSON</button>
+      <button id="refresh-btn">Refresh</button>
+      <label class="switch"><input type="checkbox" id="privacy-toggle"><span class="slider"></span> Anonymize</label>
+      <select id="patient-selector" style="display:none;"></select>
+    </div>
+    <div id="clinician-notes-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close" id="close-notes">&times;</span>
+        <h3>Clinician Notes</h3>
+        <textarea id="clinician-notes-text" rows="8" style="width:100%;"></textarea>
+        <button id="save-notes">Save Notes</button>
+      </div>
+    </div>
+    <section id="alerts-panel-section">
+      <!-- Alerts panel will be rendered here by JS -->
+    </section>
+    <div class="dashboard-flex-row">
+      <aside id="trend-sidebar">
+        <!-- Trend cards sidebar will be rendered here by JS -->
+      </aside>
+      <main id="chart-grid">
+        <!-- Chart grid will be rendered here by JS -->
+      </main>
+    </div>
+    <section id="data-table-section">
+      <!-- Tabular data panel will be rendered here by JS -->
+    </section>
+  </div>
+  <footer class="footer-wide">
+    <div class="footer-content footer-vertical footer-tight">
+      <div class="footer-summary" id="footer-summary">
+        <!-- Clinical summary will be injected here by JS -->
+      </div>
+      <div class="footer-about">
+        <strong>About this dashboard:</strong> This platform provides clinicians with a unified, interactive view of patient biomarker trends, critical alerts, and lab report history. Upload or refresh lab data to instantly visualize time series, summary metrics, and clinical alerts. All data is processed locally in your browser for privacy. Use export and print features for documentation or sharing. Designed for clarity, speed, and actionable insights in real-world medical practice.<br>
+        For healthcare professional use and patient education. Not a substitute for professional medical advice.<br><br>
+        © 2025 Clinical Biomarker Dashboard. For clinical use only. 🩺
+      </div>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html> 

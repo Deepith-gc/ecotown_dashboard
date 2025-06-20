@@ -1,0 +1,734 @@
+{
+  "patient_profile": {
+    "patient_id": "BG_MANJUNATH_SWAMY",
+    "name": "BG MANJUNATH SWAMY",
+    "age": 57,
+    "gender": "Male",
+    "reports": [
+      {
+        "report_date": "2023-11-20 00:00:00",
+        "source_file": "from_C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+        "biomarkers": {
+          "Total Cholesterol": {
+            "value": 190.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 125.0,
+              "max": 200.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+          "original_data": {
+            "report_date": "2023-11-20",
+            "biomarkers": {
+              "Total Cholesterol": 190.0
+            }
+          }
+        }
+      },
+      {
+        "report_date": "2023-11-20 00:00:00",
+        "source_file": "Report_AD231201100076582949_2023_11_20_R_L(1).pdf",
+        "biomarkers": {
+          "Total Cholesterol": {
+            "value": 200.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 125.0,
+              "max": 200.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Triglycerides": {
+            "value": 150.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\enhanced_patient_data.json",
+          "original_data": {
+            "report_date": "2023-11-20",
+            "biomarkers": {
+              "Total Cholesterol": 200.0,
+              "Triglycerides": 150.0
+            },
+            "source_file": "Report_AD231201100076582949_2023_11_20_R_L(1).pdf"
+          }
+        }
+      },
+      {
+        "report_date": "2024-03-20 00:00:00",
+        "source_file": "from_C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+        "biomarkers": {
+          "Total Cholesterol": {
+            "value": 190.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 125.0,
+              "max": 200.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Triglycerides": {
+            "value": 150.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Vitamin D": {
+            "value": 30.0,
+            "unit": "ng/mL",
+            "reference_range": {
+              "min": 30.0,
+              "max": 100.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+          "original_data": {
+            "report_date": "2024-03-20",
+            "biomarkers": {
+              "Total Cholesterol": 190.0,
+              "Triglycerides": 150.0,
+              "Vitamin D": 30.0
+            }
+          }
+        }
+      },
+      {
+        "report_date": "2024-03-20 00:00:00",
+        "source_file": "ReportAccess2024.aspx.pdf",
+        "biomarkers": {
+          "Triglycerides": {
+            "value": 150.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Vitamin D": {
+            "value": 30.0,
+            "unit": "ng/mL",
+            "reference_range": {
+              "min": 30.0,
+              "max": 100.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\enhanced_patient_data.json",
+          "original_data": {
+            "report_date": "2024-03-20",
+            "biomarkers": {
+              "Triglycerides": 150.0,
+              "Vitamin D": 30.0
+            },
+            "source_file": "ReportAccess2024.aspx.pdf"
+          }
+        }
+      },
+      {
+        "report_date": "2024-09-13 00:00:00",
+        "source_file": "from_C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+        "biomarkers": {
+          "Total Cholesterol": {
+            "value": 190.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 125.0,
+              "max": 200.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Triglycerides": {
+            "value": 150.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Creatinine": {
+            "value": 9.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.6,
+              "max": 1.3
+            },
+            "status": "High",
+            "confidence": 1.0
+          },
+          "HbA1c": {
+            "value": 5.7,
+            "unit": "%",
+            "reference_range": {
+              "min": 4.0,
+              "max": 5.6
+            },
+            "status": "High",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+          "original_data": {
+            "report_date": "2024-09-13",
+            "biomarkers": {
+              "Total Cholesterol": 190.0,
+              "Triglycerides": 150.0,
+              "Creatinine": 9.0,
+              "HbA1c": 5.7
+            }
+          }
+        }
+      },
+      {
+        "report_date": "2024-09-13 00:00:00",
+        "source_file": "from_C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+        "biomarkers": {
+          "Total Cholesterol": {
+            "value": 130.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 125.0,
+              "max": 200.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "LDL": {
+            "value": 74.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 100.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "HDL": {
+            "value": 39.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 40.0,
+              "max": 60.0
+            },
+            "status": "Low",
+            "confidence": 1.0
+          },
+          "Triglycerides": {
+            "value": 174.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "High",
+            "confidence": 1.0
+          },
+          "Creatinine": {
+            "value": 1.29,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.6,
+              "max": 1.3
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Vitamin D": {
+            "value": 39.3,
+            "unit": "ng/mL",
+            "reference_range": {
+              "min": 30.0,
+              "max": 100.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Vitamin B12": {
+            "value": 470.0,
+            "unit": "pg/mL",
+            "reference_range": {
+              "min": 200.0,
+              "max": 900.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "HbA1c": {
+            "value": 5.8,
+            "unit": "%",
+            "reference_range": {
+              "min": 4.0,
+              "max": 5.6
+            },
+            "status": "High",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+          "original_data": {
+            "report_date": "2024-09-13",
+            "biomarkers": {
+              "Total Cholesterol": 130.0,
+              "LDL": 74.0,
+              "HDL": 39.0,
+              "Triglycerides": 174.0,
+              "Creatinine": 1.29,
+              "Vitamin D": 39.3,
+              "Vitamin B12": 470.0,
+              "HbA1c": 5.8
+            }
+          }
+        }
+      },
+      {
+        "report_date": "2024-09-13 00:00:00",
+        "source_file": "1726238851863.pdf",
+        "biomarkers": {
+          "Triglycerides": {
+            "value": 150.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "Creatinine": {
+            "value": 9.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.6,
+              "max": 1.3
+            },
+            "status": "High",
+            "confidence": 1.0
+          },
+          "Vitamin D": {
+            "value": 12.0,
+            "unit": "ng/mL",
+            "reference_range": {
+              "min": 30.0,
+              "max": 100.0
+            },
+            "status": "Low",
+            "confidence": 1.0
+          },
+          "HbA1c": {
+            "value": 5.7,
+            "unit": "%",
+            "reference_range": {
+              "min": 4.0,
+              "max": 5.6
+            },
+            "status": "High",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\enhanced_patient_data.json",
+          "original_data": {
+            "report_date": "2024-09-13",
+            "biomarkers": {
+              "Triglycerides": 150.0,
+              "Creatinine": 9.0,
+              "Vitamin D": 12.0,
+              "HbA1c": 5.7
+            },
+            "source_file": "1726238851863.pdf"
+          }
+        }
+      },
+      {
+        "report_date": "2025-06-19 11:05:49.410289",
+        "source_file": "from_C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+        "biomarkers": {
+          "Triglycerides": {
+            "value": 1000.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "High",
+            "confidence": 1.0
+          },
+          "Vitamin D": {
+            "value": 5.0,
+            "unit": "ng/mL",
+            "reference_range": {
+              "min": 30.0,
+              "max": 100.0
+            },
+            "status": "Low",
+            "confidence": 1.0
+          },
+          "HbA1c": {
+            "value": 46.7,
+            "unit": "%",
+            "reference_range": {
+              "min": 4.0,
+              "max": 5.6
+            },
+            "status": "High",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\combined_patient_data.json",
+          "original_data": {
+            "report_date": "Unknown",
+            "biomarkers": {
+              "Triglycerides": 1000.0,
+              "Vitamin D": 5.0,
+              "HbA1c": 46.7
+            }
+          }
+        }
+      },
+      {
+        "report_date": "2025-06-19 11:05:49.414590",
+        "source_file": "MR. MANJUNATH SWAMY_56 Y 0 M 0 D _KAL5954 (1).pdf",
+        "biomarkers": {
+          "Triglycerides": {
+            "value": 200.0,
+            "unit": "mg/dL",
+            "reference_range": {
+              "min": 0.0,
+              "max": 150.0
+            },
+            "status": "High",
+            "confidence": 1.0
+          },
+          "Vitamin D": {
+            "value": 18.73,
+            "unit": "ng/mL",
+            "reference_range": {
+              "min": 30.0,
+              "max": 100.0
+            },
+            "status": "Low",
+            "confidence": 1.0
+          },
+          "Vitamin B12": {
+            "value": 259.0,
+            "unit": "pg/mL",
+            "reference_range": {
+              "min": 200.0,
+              "max": 900.0
+            },
+            "status": "Normal",
+            "confidence": 1.0
+          },
+          "HbA1c": {
+            "value": 5.8,
+            "unit": "%",
+            "reference_range": {
+              "min": 4.0,
+              "max": 5.6
+            },
+            "status": "High",
+            "confidence": 1.0
+          }
+        },
+        "extraction_metadata": {
+          "source_file": "C:\\Users\\deepi\\PycharmProjects\\ecotown_dashboard\\extract\\enhanced_patient_data.json",
+          "original_data": {
+            "report_date": "Unknown",
+            "biomarkers": {
+              "Triglycerides": 200.0,
+              "Vitamin D": 18.73,
+              "Vitamin B12": 259.0,
+              "HbA1c": 5.8
+            },
+            "source_file": "MR. MANJUNATH SWAMY_56 Y 0 M 0 D _KAL5954 (1).pdf"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-06-19 11:05:49.414689",
+    "updated_at": "2025-06-19 11:05:49.414694"
+  },
+  "trends": {
+    "Total Cholesterol": {
+      "biomarker": "Total Cholesterol",
+      "values": [
+        190.0,
+        200.0,
+        190.0,
+        190.0,
+        130.0
+      ],
+      "dates": [
+        "2023-11-20 00:00:00",
+        "2023-11-20 00:00:00",
+        "2024-03-20 00:00:00",
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00"
+      ],
+      "trend_direction": "falling",
+      "trend_strength": 0.528125,
+      "latest_value": 130.0,
+      "change_percentage": -31.57894736842105
+    },
+    "Triglycerides": {
+      "biomarker": "Triglycerides",
+      "values": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        174.0,
+        150.0,
+        1000.0,
+        200.0
+      ],
+      "dates": [
+        "2023-11-20 00:00:00",
+        "2024-03-20 00:00:00",
+        "2024-03-20 00:00:00",
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00",
+        "2025-06-19 11:05:49.410289",
+        "2025-06-19 11:05:49.414590"
+      ],
+      "trend_direction": "rising",
+      "trend_strength": 0.2056544762384913,
+      "latest_value": 200.0,
+      "change_percentage": 33.33333333333333
+    },
+    "Creatinine": {
+      "biomarker": "Creatinine",
+      "values": [
+        9.0,
+        1.29,
+        9.0
+      ],
+      "dates": [
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00"
+      ],
+      "trend_direction": "stable",
+      "trend_strength": 0.0,
+      "latest_value": 9.0,
+      "change_percentage": 0.0
+    },
+    "Vitamin D": {
+      "biomarker": "Vitamin D",
+      "values": [
+        30.0,
+        30.0,
+        39.3,
+        12.0,
+        5.0,
+        18.73
+      ],
+      "dates": [
+        "2024-03-20 00:00:00",
+        "2024-03-20 00:00:00",
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00",
+        "2025-06-19 11:05:49.410289",
+        "2025-06-19 11:05:49.414590"
+      ],
+      "trend_direction": "falling",
+      "trend_strength": 0.4356020291375161,
+      "latest_value": 18.73,
+      "change_percentage": -37.56666666666666
+    },
+    "Vitamin B12": {
+      "biomarker": "Vitamin B12",
+      "values": [
+        470.0,
+        259.0
+      ],
+      "dates": [
+        "2024-09-13 00:00:00",
+        "2025-06-19 11:05:49.414590"
+      ],
+      "trend_direction": "falling",
+      "trend_strength": 1.0,
+      "latest_value": 259.0,
+      "change_percentage": -44.8936170212766
+    },
+    "HbA1c": {
+      "biomarker": "HbA1c",
+      "values": [
+        5.7,
+        5.8,
+        5.7,
+        46.7,
+        5.8
+      ],
+      "dates": [
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00",
+        "2024-09-13 00:00:00",
+        "2025-06-19 11:05:49.410289",
+        "2025-06-19 11:05:49.414590"
+      ],
+      "trend_direction": "rising",
+      "trend_strength": 0.12591648950602796,
+      "latest_value": 5.8,
+      "change_percentage": 1.7543859649122744
+    }
+  },
+  "summary_stats": {
+    "total_reports": 9,
+    "monitoring_period_days": 577,
+    "total_biomarkers": 31,
+    "biomarker_counts": {
+      "Total Cholesterol": 5,
+      "Triglycerides": 8,
+      "Vitamin D": 6,
+      "Creatinine": 3,
+      "HbA1c": 5,
+      "LDL": 1,
+      "HDL": 1,
+      "Vitamin B12": 2
+    },
+    "status_summary": {
+      "Normal": 17,
+      "High": 10,
+      "Low": 4
+    },
+    "latest_values": {
+      "Total Cholesterol": 130.0,
+      "Triglycerides": 200.0,
+      "Vitamin D": 18.73,
+      "Creatinine": 9.0,
+      "HbA1c": 5.8,
+      "LDL": 74.0,
+      "HDL": 39.0,
+      "Vitamin B12": 259.0
+    },
+    "critical_alerts": [
+      {
+        "biomarker": "Creatinine",
+        "value": 9.0,
+        "status": "Critically High",
+        "reference_max": 1.3
+      },
+      {
+        "biomarker": "Creatinine",
+        "value": 9.0,
+        "status": "Critically High",
+        "reference_max": 1.3
+      },
+      {
+        "biomarker": "Vitamin D",
+        "value": 12.0,
+        "status": "Critically Low",
+        "reference_min": 30.0
+      },
+      {
+        "biomarker": "Triglycerides",
+        "value": 1000.0,
+        "status": "Critically High",
+        "reference_max": 150.0
+      },
+      {
+        "biomarker": "Vitamin D",
+        "value": 5.0,
+        "status": "Critically Low",
+        "reference_min": 30.0
+      },
+      {
+        "biomarker": "HbA1c",
+        "value": 46.7,
+        "status": "Critically High",
+        "reference_max": 5.6
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "biomarker_alert",
+      "severity": "high",
+      "biomarker": "Triglycerides",
+      "value": "200.0 mg/dL",
+      "status": "High",
+      "message": "Triglycerides is high (trending upward). Current value: 200.0 mg/dL",
+      "recommendation": "Reduce sugar and refined carbs, increase physical activity."
+    },
+    {
+      "type": "biomarker_alert",
+      "severity": "high",
+      "biomarker": "Vitamin D",
+      "value": "18.73 ng/mL",
+      "status": "Low",
+      "message": "Vitamin D is low (trending downward). Current value: 18.73 ng/mL",
+      "recommendation": "Increase sun exposure, dietary sources, or consider supplementation."
+    },
+    {
+      "type": "biomarker_alert",
+      "severity": "high",
+      "biomarker": "HbA1c",
+      "value": "5.8 %",
+      "status": "High",
+      "message": "HbA1c is high (trending upward). Current value: 5.8 %",
+      "recommendation": "Focus on blood sugar management through diet, exercise, and medication."
+    },
+    {
+      "type": "trend_alert",
+      "severity": "medium",
+      "biomarker": "Total Cholesterol",
+      "message": "Total Cholesterol has decreased by 31.6% over the monitoring period",
+      "recommendation": "Monitor Total Cholesterol closely and consider supplementation if appropriate"
+    },
+    {
+      "type": "trend_alert",
+      "severity": "medium",
+      "biomarker": "Triglycerides",
+      "message": "Triglycerides has increased by 33.3% over the monitoring period",
+      "recommendation": "Monitor Triglycerides closely and consider lifestyle modifications"
+    },
+    {
+      "type": "trend_alert",
+      "severity": "medium",
+      "biomarker": "Vitamin D",
+      "message": "Vitamin D has decreased by 37.6% over the monitoring period",
+      "recommendation": "Monitor Vitamin D closely and consider supplementation if appropriate"
+    },
+    {
+      "type": "trend_alert",
+      "severity": "medium",
+      "biomarker": "Vitamin B12",
+      "message": "Vitamin B12 has decreased by 44.9% over the monitoring period",
+      "recommendation": "Monitor Vitamin B12 closely and consider supplementation if appropriate"
+    }
+  ]
+}

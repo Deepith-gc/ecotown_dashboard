@@ -1,0 +1,49 @@
+2025-06-19 10:59:26,364 - INFO -   - C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\combined_patient_data.json
+2025-06-19 10:59:26,364 - INFO -   - C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\enhanced_patient_data.json
+2025-06-19 10:59:26,380 - ERROR - Error processing C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\combined_patient_data.json: 3 validation errors for LabReport
+extraction_metadata.original_data.str
+  Input should be a valid string [type=string_type, input_value={'report_date': '2023-11-...al Cholesterol': 190.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+extraction_metadata.original_data.float
+  Input should be a valid number [type=float_type, input_value={'report_date': '2023-11-...al Cholesterol': 190.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+extraction_metadata.original_data.int
+  Input should be a valid integer [type=int_type, input_value={'report_date': '2023-11-...al Cholesterol': 190.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-06-19 10:59:26,384 - ERROR - Error processing C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\enhanced_patient_data.json: 3 validation errors for LabReport
+extraction_metadata.original_data.str
+  Input should be a valid string [type=string_type, input_value={'report_date': '2023-11-..._2023_11_20_R_L(1).pdf'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+extraction_metadata.original_data.float
+  Input should be a valid number [type=float_type, input_value={'report_date': '2023-11-..._2023_11_20_R_L(1).pdf'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+extraction_metadata.original_data.int
+  Input should be a valid integer [type=int_type, input_value={'report_date': '2023-11-..._2023_11_20_R_L(1).pdf'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-06-19 11:00:24,640 - INFO -   - C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\combined_patient_data.json
+2025-06-19 11:00:24,640 - INFO -   - C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\enhanced_patient_data.json
+2025-06-19 11:00:24,654 - ERROR - Error processing C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\combined_patient_data.json: 3 validation errors for LabReport
+extraction_metadata.original_data.str
+  Input should be a valid string [type=string_type, input_value={'report_date': '2023-11-...al Cholesterol': 190.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+extraction_metadata.original_data.float
+  Input should be a valid number [type=float_type, input_value={'report_date': '2023-11-...al Cholesterol': 190.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+extraction_metadata.original_data.int
+  Input should be a valid integer [type=int_type, input_value={'report_date': '2023-11-...al Cholesterol': 190.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-06-19 11:00:24,657 - ERROR - Error processing C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\enhanced_patient_data.json: 3 validation errors for LabReport
+extraction_metadata.original_data.str
+  Input should be a valid string [type=string_type, input_value={'report_date': '2023-11-..._2023_11_20_R_L(1).pdf'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+extraction_metadata.original_data.float
+  Input should be a valid number [type=float_type, input_value={'report_date': '2023-11-..._2023_11_20_R_L(1).pdf'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+extraction_metadata.original_data.int
+  Input should be a valid integer [type=int_type, input_value={'report_date': '2023-11-..._2023_11_20_R_L(1).pdf'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-06-19 11:05:49,400 - INFO - Starting Biomarker Analysis System
+2025-06-19 11:05:49,401 - INFO - Found 2 JSON data files:
+2025-06-19 11:05:49,401 - INFO -   - C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\combined_patient_data.json
+2025-06-19 11:05:49,401 - INFO -   - C:\Users\deepi\PycharmProjects\ecotown_dashboard\extract\enhanced_patient_data.json
+2025-06-19 11:05:49,444 - INFO - Application completed successfully!
